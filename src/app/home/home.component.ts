@@ -13,6 +13,7 @@ export class HomeComponent implements OnInit {
   clickMessage = 'Hello';
   show: boolean = false;
   buttonName: any = 'More Info';
+  hello = 'hi';
 
   toggle() {
     this.show = !this.show;
