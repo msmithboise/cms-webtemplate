@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.hero-image {
+  background-color: #221c1c;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  opacity: 0.5;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+}
+
+.company-heading {
+  font-family: "Courier New", Courier, monospace;
+}
+
+img {
+  size: 100px;
+}
+
+.text-layer {
+  text-align: center;
+}
+
+.info-button {
+  color: white;
+  background-color: black;
+  font-size: 15px;
+  border-radius: 5px;
+}
