@@ -1,20 +1,27 @@
-.banner {
-  margin: 0 0 2em 0;
-  list-style-type: none;
-  padding: 0;
-  width: 15em;
-}
-body {
+/* body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-}
-.hero-image {
+} */
+/* .hero-image {
   background-color: #221c1c;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
   opacity: 0.5;
+} */
+
+.parallax {
+  background-image: url(https://images.unsplash.com/photo-1541832039-cab7e4310f28?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+  /* <img src="assets/design-hero-image.jpg" alt="background-image" /> */
+  /* Set a specific height */
+  height: 1000px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .hero-text {
@@ -26,10 +33,10 @@ body {
   color: black;
 }
 
-.company-heading {
+/* .company-heading {
   font-family: "Courier New", Courier, monospace;
 }
 
 img {
   size: 100px;
-}
+} */
