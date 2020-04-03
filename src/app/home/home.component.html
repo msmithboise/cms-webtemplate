@@ -1,24 +1,7 @@
 <body>
-  <div class="hero-image">
-    <img src="assets/design-hero-image.jpg" alt="background-image" />
-  </div>
-  <div class="hero-text">
-    <h1 class="company-heading" style="font: size 50;">{{ title }}</h1>
-    <app-banner></app-banner>
-  </div>
-  <div class="text-layer">
-    <h1>Our Mission</h1>
-    <p>
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore".
-    </p>
-    <button (click)="toggle()">
-      {{ buttonName }}
-    </button>
-  </div>
-  <ng-container *ngIf="show">
-    <div class="text-layer">
-      {{ clickMessage }}
-    </div>
-  </ng-container>
+  <app-banner></app-banner>
+
+  <app-text-layer></app-text-layer>
+
+  <app-dropdown-layer></app-dropdown-layer>
 </body>
