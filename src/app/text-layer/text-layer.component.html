@@ -8,10 +8,10 @@
     <button (click)="toggle()">
       {{ buttonName }}
     </button>
+    <ng-container *ngIf="show">
+      <div class="message">
+        {{ clickMessage }}
+      </div>
+    </ng-container>
   </div>
-  <ng-container *ngIf="show">
-    <div class="message">
-      {{ clickMessage }}
-    </div>
-  </ng-container>
 </body>

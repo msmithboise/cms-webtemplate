@@ -1,0 +1,16 @@
+{
+    "sqltools.connections": [
+        {
+            "connectionTimeout": 60,
+            "database": "cmswebtemplate",
+            "dialect": "MySQL",
+            "isActive": true,
+            "isConnected": true,
+            "name": "MysqlConnection",
+            "password": "Hd0X_UP1OS~i",
+            "port": 3306,
+            "server": "den1.mysql3.gear.host",
+            "username": "cmswebtemplate"
+        }
+    ]
+}

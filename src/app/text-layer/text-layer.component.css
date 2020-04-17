@@ -4,6 +4,11 @@ body {
 
 .text-layer {
   text-align: center;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
 }
 
 .info-button {
@@ -15,6 +20,5 @@ body {
 
 .message {
   text-align: center;
-  margin-top: 10px;
-  font-size: 15px;
+  position: static;
 }
