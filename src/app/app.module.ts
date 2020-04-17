@@ -7,6 +7,8 @@ import { BannerComponent } from './banner/banner.component';
 import { HomeComponent } from './home/home.component';
 import { TextLayerComponent } from './text-layer/text-layer.component';
 import { DropdownLayerComponent } from './dropdown-layer/dropdown-layer.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { DropdownLayerComponent } from './dropdown-layer/dropdown-layer.componen
     BannerComponent,
     HomeComponent,
     TextLayerComponent,
-    DropdownLayerComponent
+    DropdownLayerComponent,
+    DashboardComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
