@@ -8,5 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class DashboardComponent implements OnInit {
   constructor() {}
 
+  val: string = '';
+  storedValue = this.val;
+
   ngOnInit(): void {}
 }
